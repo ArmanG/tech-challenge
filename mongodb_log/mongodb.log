@@ -1,0 +1,997 @@
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] MongoDB starting : pid=7959 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:42:33.998-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:42:33.999-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T13:42:34.774-0400 I STORAGE  [initandlisten] WiredTiger message [1529170954:774326][7959:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:42:34.991-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T13:42:34.997-0400 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 63de6ebc-38e8-43b7-9c46-2adcde5e6e3e
+2018-06-16T13:42:35.071-0400 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2018-06-16T13:42:35.076-0400 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 1ccc83d2-e46d-4d88-8116-5b6c595bb5bc
+2018-06-16T13:42:35.265-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T13:42:35.266-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T13:43:41.610-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T13:43:41.610-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T13:43:41.611-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T13:43:41.611-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T13:43:41.614-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T13:43:41.704-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T13:43:41.705-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T13:43:41.705-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T13:44:56.664-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8021 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:44:56.685-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:44:56.686-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T13:44:56.686-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T13:44:57.733-0400 I STORAGE  [initandlisten] WiredTiger message [1529171097:733209][8021:0x7fff7f124300], txn-recover: Main recovery loop: starting at 1/14720
+2018-06-16T13:44:57.833-0400 I STORAGE  [initandlisten] WiredTiger message [1529171097:833107][8021:0x7fff7f124300], txn-recover: Recovering log 1 through 2
+2018-06-16T13:44:57.903-0400 I STORAGE  [initandlisten] WiredTiger message [1529171097:903843][8021:0x7fff7f124300], txn-recover: Recovering log 2 through 2
+2018-06-16T13:44:57.954-0400 I STORAGE  [initandlisten] WiredTiger message [1529171097:954681][8021:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T13:44:58.023-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:44:58.024-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T13:44:58.030-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T13:44:58.030-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T13:45:22.681-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T13:45:22.681-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T13:45:22.681-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T13:45:22.681-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T13:45:22.682-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T13:45:22.845-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T13:45:22.845-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T13:45:22.845-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T13:45:25.105-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8047 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:45:25.122-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:45:25.123-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T13:45:25.123-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T13:45:26.090-0400 I STORAGE  [initandlisten] WiredTiger message [1529171126:89991][8047:0x7fff7f124300], txn-recover: Main recovery loop: starting at 2/4992
+2018-06-16T13:45:26.190-0400 I STORAGE  [initandlisten] WiredTiger message [1529171126:190488][8047:0x7fff7f124300], txn-recover: Recovering log 2 through 3
+2018-06-16T13:45:26.258-0400 I STORAGE  [initandlisten] WiredTiger message [1529171126:258724][8047:0x7fff7f124300], txn-recover: Recovering log 3 through 3
+2018-06-16T13:45:26.307-0400 I STORAGE  [initandlisten] WiredTiger message [1529171126:307428][8047:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:45:26.385-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T13:45:26.391-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T13:45:26.392-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T13:46:51.440-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8061 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:46:51.463-0400 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /Users/armanghassemi/techChallenge/mongodb_data/mongod.lock (Resource temporarily unavailable). Another mongod instance is already running on the /Users/armanghassemi/techChallenge/mongodb_data directory, terminating
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] now exiting
+2018-06-16T13:46:51.463-0400 I CONTROL  [initandlisten] shutting down with code:100
+2018-06-16T13:47:10.080-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T13:47:10.080-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T13:47:10.080-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T13:47:10.081-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T13:47:10.082-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T13:47:10.234-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T13:47:10.234-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T13:47:10.235-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T13:47:11.882-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8084 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:47:11.902-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:47:11.902-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T13:47:11.902-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T13:47:12.859-0400 I STORAGE  [initandlisten] WiredTiger message [1529171232:859844][8084:0x7fff7f124300], txn-recover: Main recovery loop: starting at 3/6144
+2018-06-16T13:47:12.962-0400 I STORAGE  [initandlisten] WiredTiger message [1529171232:962294][8084:0x7fff7f124300], txn-recover: Recovering log 3 through 4
+2018-06-16T13:47:13.030-0400 I STORAGE  [initandlisten] WiredTiger message [1529171233:30699][8084:0x7fff7f124300], txn-recover: Recovering log 4 through 4
+2018-06-16T13:47:13.082-0400 I STORAGE  [initandlisten] WiredTiger message [1529171233:82036][8084:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T13:47:13.172-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] 
+2018-06-16T13:47:13.173-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T13:47:13.179-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T13:47:13.179-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T13:47:16.169-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T13:47:16.188-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8087 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T13:47:16.189-0400 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /Users/armanghassemi/techChallenge/mongodb_data/mongod.lock (Resource temporarily unavailable). Another mongod instance is already running on the /Users/armanghassemi/techChallenge/mongodb_data directory, terminating
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] now exiting
+2018-06-16T13:47:16.189-0400 I CONTROL  [initandlisten] shutting down with code:100
+2018-06-16T13:52:13.197-0400 I STORAGE  [thread1] createCollection: config.system.sessions with generated UUID: 80592f2b-8e42-4aaa-b64f-2c1106bccadc
+2018-06-16T13:52:13.231-0400 I INDEX    [thread1] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-06-16T13:52:13.231-0400 I INDEX    [thread1] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-06-16T13:52:13.236-0400 I INDEX    [thread1] build index done.  scanned 0 total records. 0 secs
+2018-06-16T14:19:16.337-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:19:16.337-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:19:16.337-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:19:16.338-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:19:16.339-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:19:16.419-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:19:16.420-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:19:16.420-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:19:28.241-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8412 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:19:28.259-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:19:28.260-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:19:28.260-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:19:29.196-0400 I STORAGE  [initandlisten] WiredTiger message [1529173169:196507][8412:0x7fff7f124300], txn-recover: Main recovery loop: starting at 4/20352
+2018-06-16T14:19:29.295-0400 I STORAGE  [initandlisten] WiredTiger message [1529173169:295322][8412:0x7fff7f124300], txn-recover: Recovering log 4 through 5
+2018-06-16T14:19:29.364-0400 I STORAGE  [initandlisten] WiredTiger message [1529173169:364372][8412:0x7fff7f124300], txn-recover: Recovering log 5 through 5
+2018-06-16T14:19:29.415-0400 I STORAGE  [initandlisten] WiredTiger message [1529173169:415796][8412:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:19:29.494-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:19:29.495-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:19:29.503-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:19:29.503-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:19:51.233-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:19:51.233-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:19:51.233-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:19:51.233-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:19:51.236-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:19:51.390-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:19:51.391-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:19:51.391-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:20:18.870-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8443 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:20:18.888-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:20:18.888-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:20:18.888-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:20:19.873-0400 I STORAGE  [initandlisten] WiredTiger message [1529173219:873660][8443:0x7fff7f124300], txn-recover: Main recovery loop: starting at 5/4992
+2018-06-16T14:20:19.970-0400 I STORAGE  [initandlisten] WiredTiger message [1529173219:970193][8443:0x7fff7f124300], txn-recover: Recovering log 5 through 6
+2018-06-16T14:20:20.036-0400 I STORAGE  [initandlisten] WiredTiger message [1529173220:36122][8443:0x7fff7f124300], txn-recover: Recovering log 6 through 6
+2018-06-16T14:20:20.085-0400 I STORAGE  [initandlisten] WiredTiger message [1529173220:85533][8443:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:20:20.174-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:20:20.183-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:20:20.183-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:21:07.473-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:21:07.474-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:21:07.474-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:21:07.474-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:21:07.476-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:21:07.548-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:21:07.548-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:21:07.548-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:21:41.433-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8480 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:21:41.452-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:21:41.452-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:21:41.452-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:21:42.391-0400 I STORAGE  [initandlisten] WiredTiger message [1529173302:391619][8480:0x7fff7f124300], txn-recover: Main recovery loop: starting at 6/4992
+2018-06-16T14:21:42.491-0400 I STORAGE  [initandlisten] WiredTiger message [1529173302:491600][8480:0x7fff7f124300], txn-recover: Recovering log 6 through 7
+2018-06-16T14:21:42.563-0400 I STORAGE  [initandlisten] WiredTiger message [1529173302:563021][8480:0x7fff7f124300], txn-recover: Recovering log 7 through 7
+2018-06-16T14:21:42.611-0400 I STORAGE  [initandlisten] WiredTiger message [1529173302:611512][8480:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:21:42.683-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:21:42.684-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:21:42.691-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:21:42.692-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:22:08.472-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:22:08.472-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:22:08.472-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:22:08.473-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:22:08.474-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:22:08.604-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:22:08.604-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:22:08.604-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:22:12.321-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8509 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:22:12.339-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:22:12.340-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:22:12.340-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:22:13.333-0400 I STORAGE  [initandlisten] WiredTiger message [1529173333:333488][8509:0x7fff7f124300], txn-recover: Main recovery loop: starting at 7/4992
+2018-06-16T14:22:13.426-0400 I STORAGE  [initandlisten] WiredTiger message [1529173333:426333][8509:0x7fff7f124300], txn-recover: Recovering log 7 through 8
+2018-06-16T14:22:13.492-0400 I STORAGE  [initandlisten] WiredTiger message [1529173333:492112][8509:0x7fff7f124300], txn-recover: Recovering log 8 through 8
+2018-06-16T14:22:13.542-0400 I STORAGE  [initandlisten] WiredTiger message [1529173333:542400][8509:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:22:13.628-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:22:13.628-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:22:13.628-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:22:13.628-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:22:13.629-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:22:13.637-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:22:13.637-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:22:43.470-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:22:43.470-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:22:43.470-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:22:43.471-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:22:43.473-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:22:43.589-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:22:43.589-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:22:43.589-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:23:41.502-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8545 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:23:41.520-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:23:41.521-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:23:41.521-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:23:42.484-0400 I STORAGE  [initandlisten] WiredTiger message [1529173422:484307][8545:0x7fff7f124300], txn-recover: Main recovery loop: starting at 8/4992
+2018-06-16T14:23:42.582-0400 I STORAGE  [initandlisten] WiredTiger message [1529173422:582202][8545:0x7fff7f124300], txn-recover: Recovering log 8 through 9
+2018-06-16T14:23:42.646-0400 I STORAGE  [initandlisten] WiredTiger message [1529173422:646414][8545:0x7fff7f124300], txn-recover: Recovering log 9 through 9
+2018-06-16T14:23:42.695-0400 I STORAGE  [initandlisten] WiredTiger message [1529173422:695951][8545:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:23:42.773-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:23:42.781-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:23:42.781-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:24:24.717-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:24:24.717-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:24:24.717-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:24:24.718-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:24:24.719-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:24:24.821-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:24:24.821-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:24:24.821-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:24:43.871-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8577 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:24:43.892-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:24:43.892-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:24:43.892-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:24:44.830-0400 I STORAGE  [initandlisten] WiredTiger message [1529173484:830433][8577:0x7fff7f124300], txn-recover: Main recovery loop: starting at 9/4992
+2018-06-16T14:24:44.924-0400 I STORAGE  [initandlisten] WiredTiger message [1529173484:924583][8577:0x7fff7f124300], txn-recover: Recovering log 9 through 10
+2018-06-16T14:24:44.994-0400 I STORAGE  [initandlisten] WiredTiger message [1529173484:994892][8577:0x7fff7f124300], txn-recover: Recovering log 10 through 10
+2018-06-16T14:24:45.046-0400 I STORAGE  [initandlisten] WiredTiger message [1529173485:46005][8577:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:24:45.135-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:24:45.144-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:24:45.144-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:25:01.933-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:25:01.933-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:25:01.933-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:25:01.934-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:25:01.935-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:25:02.082-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:25:02.083-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:25:02.083-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:31:30.737-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] MongoDB starting : pid=28314 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:31:30.754-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:31:30.755-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:31:30.755-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:31:30.755-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:31:30.755-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:31:30.755-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:31:30.755-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:31:31.734-0400 I STORAGE  [initandlisten] WiredTiger message [1529173891:734074][28314:0x7fff7f124300], txn-recover: Main recovery loop: starting at 10/4992
+2018-06-16T14:31:31.831-0400 I STORAGE  [initandlisten] WiredTiger message [1529173891:831304][28314:0x7fff7f124300], txn-recover: Recovering log 10 through 11
+2018-06-16T14:31:31.900-0400 I STORAGE  [initandlisten] WiredTiger message [1529173891:900499][28314:0x7fff7f124300], txn-recover: Recovering log 11 through 11
+2018-06-16T14:31:31.948-0400 I STORAGE  [initandlisten] WiredTiger message [1529173891:948275][28314:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:31:32.042-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:31:32.050-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:31:32.051-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:34:55.872-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:34:55.872-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:34:55.872-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:34:55.873-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:34:55.874-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:34:55.961-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:34:55.962-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:34:55.962-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:35:28.471-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] MongoDB starting : pid=28413 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:35:28.490-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:35:28.491-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:35:28.491-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:35:29.426-0400 I STORAGE  [initandlisten] WiredTiger message [1529174129:426366][28413:0x7fff7f124300], txn-recover: Main recovery loop: starting at 11/7296
+2018-06-16T14:35:29.522-0400 I STORAGE  [initandlisten] WiredTiger message [1529174129:522186][28413:0x7fff7f124300], txn-recover: Recovering log 11 through 12
+2018-06-16T14:35:29.589-0400 I STORAGE  [initandlisten] WiredTiger message [1529174129:589312][28413:0x7fff7f124300], txn-recover: Recovering log 12 through 12
+2018-06-16T14:35:29.636-0400 I STORAGE  [initandlisten] WiredTiger message [1529174129:636118][28413:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:35:29.720-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:35:29.721-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:35:29.721-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:35:29.721-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:35:29.730-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:35:29.730-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:35:29.832-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53146 #1 (1 connection now open)
+2018-06-16T14:35:29.840-0400 I NETWORK  [conn1] received client metadata from 127.0.0.1:53146 conn1: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T14:35:30.380-0400 I NETWORK  [conn1] end connection 127.0.0.1:53146 (0 connections now open)
+2018-06-16T14:36:29.863-0400 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-06-16T14:36:29.863-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-16T14:36:29.863-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-16T14:36:29.863-0400 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-16T14:36:29.865-0400 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-16T14:36:29.946-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-16T14:36:29.946-0400 I CONTROL  [signalProcessingThread] now exiting
+2018-06-16T14:36:29.946-0400 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-06-16T14:38:34.082-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-06-16T14:38:34.100-0400 I CONTROL  [initandlisten] MongoDB starting : pid=28463 port=27017 dbpath=/Users/armanghassemi/techChallenge/mongodb_data 64-bit host=ArmansMacBookPro.local
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] db version v3.6.5
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] git version: a20ecd3e3a174162052ff99913bc2ca9a839d618
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0h  27 Mar 2018
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] allocator: system
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] modules: none
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] build environment:
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-16T14:38:34.101-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/armanghassemi/techChallenge/mongodb_data" }, systemLog: { destination: "file", logAppend: true, path: "/Users/armanghassemi/techChallenge/mongodb_log/mongodb.log" } }
+2018-06-16T14:38:34.101-0400 I -        [initandlisten] Detected data files in /Users/armanghassemi/techChallenge/mongodb_data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-06-16T14:38:34.101-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-16T14:38:35.061-0400 I STORAGE  [initandlisten] WiredTiger message [1529174315:61640][28463:0x7fff7f124300], txn-recover: Main recovery loop: starting at 12/6144
+2018-06-16T14:38:35.161-0400 I STORAGE  [initandlisten] WiredTiger message [1529174315:161158][28463:0x7fff7f124300], txn-recover: Recovering log 12 through 13
+2018-06-16T14:38:35.230-0400 I STORAGE  [initandlisten] WiredTiger message [1529174315:230083][28463:0x7fff7f124300], txn-recover: Recovering log 13 through 13
+2018-06-16T14:38:35.281-0400 I STORAGE  [initandlisten] WiredTiger message [1529174315:281416][28463:0x7fff7f124300], txn-recover: Set global recovery timestamp: 0
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] 
+2018-06-16T14:38:35.364-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2018-06-16T14:38:35.373-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/armanghassemi/techChallenge/mongodb_data/diagnostic.data'
+2018-06-16T14:38:35.374-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-16T14:38:35.484-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53208 #1 (1 connection now open)
+2018-06-16T14:38:35.487-0400 I NETWORK  [conn1] received client metadata from 127.0.0.1:53208 conn1: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T14:38:35.489-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53209 #2 (2 connections now open)
+2018-06-16T14:38:35.489-0400 I NETWORK  [conn2] received client metadata from 127.0.0.1:53209 conn2: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T14:38:35.495-0400 I STORAGE  [conn2] createCollection: assets.images with generated UUID: 87b44fc0-6fc1-4fb5-8a52-62d1d24e1e4e
+2018-06-16T14:38:35.640-0400 I COMMAND  [conn2] command assets.images command: insert { insert: "images", ordered: true, lsid: { id: UUID("2982e9cd-ca77-4ed2-a0b8-6e64075c9a51") }, $db: "assets" } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 5, w: 3 } }, Database: { acquireCount: { r: 1, w: 2, W: 1 } }, Collection: { acquireCount: { r: 1, w: 2 } } } protocol:op_query 150ms
+2018-06-16T14:38:36.044-0400 I NETWORK  [conn2] end connection 127.0.0.1:53209 (1 connection now open)
+2018-06-16T14:38:36.044-0400 I NETWORK  [conn1] end connection 127.0.0.1:53208 (0 connections now open)
+2018-06-16T14:43:13.271-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53212 #3 (1 connection now open)
+2018-06-16T14:43:13.271-0400 I NETWORK  [conn3] received client metadata from 127.0.0.1:53212 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.5" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "14.5.0" } }
+2018-06-16T14:45:40.573-0400 I NETWORK  [conn3] end connection 127.0.0.1:53212 (0 connections now open)
+2018-06-16T14:45:41.634-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53228 #4 (1 connection now open)
+2018-06-16T14:45:41.635-0400 I NETWORK  [conn4] received client metadata from 127.0.0.1:53228 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.5" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "14.5.0" } }
+2018-06-16T14:50:55.658-0400 I NETWORK  [conn4] end connection 127.0.0.1:53228 (0 connections now open)
+2018-06-16T15:23:48.890-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53438 #5 (1 connection now open)
+2018-06-16T15:23:48.890-0400 I NETWORK  [conn5] received client metadata from 127.0.0.1:53438 conn5: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:26:25.758-0400 I NETWORK  [conn5] end connection 127.0.0.1:53438 (0 connections now open)
+2018-06-16T15:26:29.220-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53457 #6 (1 connection now open)
+2018-06-16T15:26:29.221-0400 I NETWORK  [conn6] received client metadata from 127.0.0.1:53457 conn6: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:26:29.738-0400 I NETWORK  [conn6] end connection 127.0.0.1:53457 (0 connections now open)
+2018-06-16T15:26:54.470-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53459 #7 (1 connection now open)
+2018-06-16T15:26:54.471-0400 I NETWORK  [conn7] received client metadata from 127.0.0.1:53459 conn7: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:26:54.471-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53460 #8 (2 connections now open)
+2018-06-16T15:26:54.471-0400 I NETWORK  [conn8] received client metadata from 127.0.0.1:53460 conn8: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:26:59.147-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53469 #9 (3 connections now open)
+2018-06-16T15:26:59.147-0400 I NETWORK  [conn9] received client metadata from 127.0.0.1:53469 conn9: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:27:29.661-0400 I NETWORK  [conn9] end connection 127.0.0.1:53469 (2 connections now open)
+2018-06-16T15:27:29.662-0400 I NETWORK  [conn8] end connection 127.0.0.1:53460 (1 connection now open)
+2018-06-16T15:27:29.671-0400 I NETWORK  [conn7] end connection 127.0.0.1:53459 (0 connections now open)
+2018-06-16T15:27:31.420-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53471 #10 (1 connection now open)
+2018-06-16T15:27:31.420-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53472 #11 (2 connections now open)
+2018-06-16T15:27:31.420-0400 I NETWORK  [conn10] received client metadata from 127.0.0.1:53471 conn10: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:27:31.420-0400 I NETWORK  [conn11] received client metadata from 127.0.0.1:53472 conn11: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:27:40.325-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53479 #12 (3 connections now open)
+2018-06-16T15:27:40.325-0400 I NETWORK  [conn12] received client metadata from 127.0.0.1:53479 conn12: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:18.622-0400 I NETWORK  [conn12] end connection 127.0.0.1:53479 (2 connections now open)
+2018-06-16T15:30:18.622-0400 I NETWORK  [conn10] end connection 127.0.0.1:53471 (1 connection now open)
+2018-06-16T15:30:18.629-0400 I NETWORK  [conn11] end connection 127.0.0.1:53472 (0 connections now open)
+2018-06-16T15:30:19.837-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53508 #13 (1 connection now open)
+2018-06-16T15:30:19.837-0400 I NETWORK  [conn13] received client metadata from 127.0.0.1:53508 conn13: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:19.839-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53509 #14 (2 connections now open)
+2018-06-16T15:30:19.839-0400 I NETWORK  [conn14] received client metadata from 127.0.0.1:53509 conn14: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:24.627-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53516 #15 (3 connections now open)
+2018-06-16T15:30:24.628-0400 I NETWORK  [conn15] received client metadata from 127.0.0.1:53516 conn15: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:43.382-0400 I NETWORK  [conn15] end connection 127.0.0.1:53516 (2 connections now open)
+2018-06-16T15:30:43.382-0400 I NETWORK  [conn14] end connection 127.0.0.1:53509 (1 connection now open)
+2018-06-16T15:30:43.390-0400 I NETWORK  [conn13] end connection 127.0.0.1:53508 (0 connections now open)
+2018-06-16T15:30:44.298-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53517 #16 (1 connection now open)
+2018-06-16T15:30:44.299-0400 I NETWORK  [conn16] received client metadata from 127.0.0.1:53517 conn16: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:44.299-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53518 #17 (2 connections now open)
+2018-06-16T15:30:44.299-0400 I NETWORK  [conn17] received client metadata from 127.0.0.1:53518 conn17: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:30:47.740-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53521 #18 (3 connections now open)
+2018-06-16T15:30:47.740-0400 I NETWORK  [conn18] received client metadata from 127.0.0.1:53521 conn18: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:32:40.604-0400 I NETWORK  [conn18] end connection 127.0.0.1:53521 (2 connections now open)
+2018-06-16T15:32:40.604-0400 I NETWORK  [conn17] end connection 127.0.0.1:53518 (1 connection now open)
+2018-06-16T15:32:40.610-0400 I NETWORK  [conn16] end connection 127.0.0.1:53517 (0 connections now open)
+2018-06-16T15:32:41.618-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53529 #19 (1 connection now open)
+2018-06-16T15:32:41.618-0400 I NETWORK  [conn19] received client metadata from 127.0.0.1:53529 conn19: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:32:41.618-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53530 #20 (2 connections now open)
+2018-06-16T15:32:41.619-0400 I NETWORK  [conn20] received client metadata from 127.0.0.1:53530 conn20: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:32:44.892-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53533 #21 (3 connections now open)
+2018-06-16T15:32:44.892-0400 I NETWORK  [conn21] received client metadata from 127.0.0.1:53533 conn21: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:32:51.054-0400 I NETWORK  [conn21] end connection 127.0.0.1:53533 (2 connections now open)
+2018-06-16T15:32:51.054-0400 I NETWORK  [conn20] end connection 127.0.0.1:53530 (1 connection now open)
+2018-06-16T15:32:51.063-0400 I NETWORK  [conn19] end connection 127.0.0.1:53529 (0 connections now open)
+2018-06-16T15:34:09.592-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53554 #22 (1 connection now open)
+2018-06-16T15:34:09.592-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53555 #23 (2 connections now open)
+2018-06-16T15:34:09.592-0400 I NETWORK  [conn22] received client metadata from 127.0.0.1:53554 conn22: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:34:09.592-0400 I NETWORK  [conn23] received client metadata from 127.0.0.1:53555 conn23: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:34:14.432-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53558 #24 (3 connections now open)
+2018-06-16T15:34:14.432-0400 I NETWORK  [conn24] received client metadata from 127.0.0.1:53558 conn24: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:34:48.509-0400 I NETWORK  [conn24] end connection 127.0.0.1:53558 (2 connections now open)
+2018-06-16T15:34:48.510-0400 I NETWORK  [conn23] end connection 127.0.0.1:53555 (1 connection now open)
+2018-06-16T15:34:48.516-0400 I NETWORK  [conn22] end connection 127.0.0.1:53554 (0 connections now open)
+2018-06-16T15:34:49.412-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53559 #25 (1 connection now open)
+2018-06-16T15:34:49.414-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53560 #26 (2 connections now open)
+2018-06-16T15:34:49.414-0400 I NETWORK  [conn26] received client metadata from 127.0.0.1:53560 conn26: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:34:49.414-0400 I NETWORK  [conn25] received client metadata from 127.0.0.1:53559 conn25: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:34:52.034-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53563 #27 (3 connections now open)
+2018-06-16T15:34:52.034-0400 I NETWORK  [conn27] received client metadata from 127.0.0.1:53563 conn27: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:12.940-0400 I NETWORK  [conn27] end connection 127.0.0.1:53563 (2 connections now open)
+2018-06-16T15:35:12.940-0400 I NETWORK  [conn25] end connection 127.0.0.1:53559 (1 connection now open)
+2018-06-16T15:35:12.947-0400 I NETWORK  [conn26] end connection 127.0.0.1:53560 (0 connections now open)
+2018-06-16T15:35:13.724-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53564 #28 (1 connection now open)
+2018-06-16T15:35:13.726-0400 I NETWORK  [conn28] received client metadata from 127.0.0.1:53564 conn28: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:13.728-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53565 #29 (2 connections now open)
+2018-06-16T15:35:13.728-0400 I NETWORK  [conn29] received client metadata from 127.0.0.1:53565 conn29: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:16.082-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53568 #30 (3 connections now open)
+2018-06-16T15:35:16.082-0400 I NETWORK  [conn30] received client metadata from 127.0.0.1:53568 conn30: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:42.880-0400 I NETWORK  [conn30] end connection 127.0.0.1:53568 (2 connections now open)
+2018-06-16T15:35:42.880-0400 I NETWORK  [conn29] end connection 127.0.0.1:53565 (1 connection now open)
+2018-06-16T15:35:42.886-0400 I NETWORK  [conn28] end connection 127.0.0.1:53564 (0 connections now open)
+2018-06-16T15:35:43.596-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53569 #31 (1 connection now open)
+2018-06-16T15:35:43.596-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53570 #32 (2 connections now open)
+2018-06-16T15:35:43.596-0400 I NETWORK  [conn32] received client metadata from 127.0.0.1:53570 conn32: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:43.596-0400 I NETWORK  [conn31] received client metadata from 127.0.0.1:53569 conn31: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:35:46.299-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53573 #33 (3 connections now open)
+2018-06-16T15:35:46.299-0400 I NETWORK  [conn33] received client metadata from 127.0.0.1:53573 conn33: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:36:22.348-0400 I NETWORK  [conn33] end connection 127.0.0.1:53573 (2 connections now open)
+2018-06-16T15:36:22.348-0400 I NETWORK  [conn31] end connection 127.0.0.1:53569 (1 connection now open)
+2018-06-16T15:36:22.354-0400 I NETWORK  [conn32] end connection 127.0.0.1:53570 (0 connections now open)
+2018-06-16T15:36:23.560-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53576 #34 (1 connection now open)
+2018-06-16T15:36:23.561-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53577 #35 (2 connections now open)
+2018-06-16T15:36:23.561-0400 I NETWORK  [conn34] received client metadata from 127.0.0.1:53576 conn34: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:36:23.561-0400 I NETWORK  [conn35] received client metadata from 127.0.0.1:53577 conn35: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:36:26.223-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53580 #36 (3 connections now open)
+2018-06-16T15:36:26.223-0400 I NETWORK  [conn36] received client metadata from 127.0.0.1:53580 conn36: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:38:36.505-0400 I NETWORK  [conn36] end connection 127.0.0.1:53580 (2 connections now open)
+2018-06-16T15:38:36.509-0400 I NETWORK  [conn34] end connection 127.0.0.1:53576 (1 connection now open)
+2018-06-16T15:38:36.514-0400 I NETWORK  [conn35] end connection 127.0.0.1:53577 (0 connections now open)
+2018-06-16T15:39:28.813-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53601 #37 (1 connection now open)
+2018-06-16T15:39:28.814-0400 I NETWORK  [conn37] received client metadata from 127.0.0.1:53601 conn37: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:39:28.815-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53602 #38 (2 connections now open)
+2018-06-16T15:39:28.815-0400 I NETWORK  [conn38] received client metadata from 127.0.0.1:53602 conn38: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:39:40.747-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53607 #39 (3 connections now open)
+2018-06-16T15:39:40.747-0400 I NETWORK  [conn39] received client metadata from 127.0.0.1:53607 conn39: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T15:55:41.404-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53804 #40 (4 connections now open)
+2018-06-16T15:55:41.405-0400 I NETWORK  [conn40] received client metadata from 127.0.0.1:53804 conn40: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.5" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "14.5.0" } }
+2018-06-16T16:07:23.059-0400 I NETWORK  [conn39] end connection 127.0.0.1:53607 (3 connections now open)
+2018-06-16T16:07:23.059-0400 I NETWORK  [conn38] end connection 127.0.0.1:53602 (2 connections now open)
+2018-06-16T16:07:23.067-0400 I NETWORK  [conn37] end connection 127.0.0.1:53601 (1 connection now open)
+2018-06-16T16:08:48.888-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53837 #41 (2 connections now open)
+2018-06-16T16:08:48.891-0400 I NETWORK  [conn41] received client metadata from 127.0.0.1:53837 conn41: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:08:48.891-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53838 #42 (3 connections now open)
+2018-06-16T16:08:48.891-0400 I NETWORK  [conn42] received client metadata from 127.0.0.1:53838 conn42: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:11:48.317-0400 I NETWORK  [conn42] end connection 127.0.0.1:53838 (2 connections now open)
+2018-06-16T16:11:48.325-0400 I NETWORK  [conn41] end connection 127.0.0.1:53837 (1 connection now open)
+2018-06-16T16:11:49.331-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53860 #43 (2 connections now open)
+2018-06-16T16:11:49.332-0400 I NETWORK  [conn43] received client metadata from 127.0.0.1:53860 conn43: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:11:49.332-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53861 #44 (3 connections now open)
+2018-06-16T16:11:49.332-0400 I NETWORK  [conn44] received client metadata from 127.0.0.1:53861 conn44: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:13:36.297-0400 I NETWORK  [conn44] end connection 127.0.0.1:53861 (2 connections now open)
+2018-06-16T16:13:36.303-0400 I NETWORK  [conn43] end connection 127.0.0.1:53860 (1 connection now open)
+2018-06-16T16:13:37.202-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53891 #45 (2 connections now open)
+2018-06-16T16:13:37.202-0400 I NETWORK  [conn45] received client metadata from 127.0.0.1:53891 conn45: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:13:37.204-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53892 #46 (3 connections now open)
+2018-06-16T16:13:37.205-0400 I NETWORK  [conn46] received client metadata from 127.0.0.1:53892 conn46: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:14:15.890-0400 I NETWORK  [conn46] end connection 127.0.0.1:53892 (2 connections now open)
+2018-06-16T16:14:15.897-0400 I NETWORK  [conn45] end connection 127.0.0.1:53891 (1 connection now open)
+2018-06-16T16:14:16.499-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53897 #47 (2 connections now open)
+2018-06-16T16:14:16.499-0400 I NETWORK  [conn47] received client metadata from 127.0.0.1:53897 conn47: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:14:16.500-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53898 #48 (3 connections now open)
+2018-06-16T16:14:16.502-0400 I NETWORK  [conn48] received client metadata from 127.0.0.1:53898 conn48: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:15:05.172-0400 I NETWORK  [conn48] end connection 127.0.0.1:53898 (2 connections now open)
+2018-06-16T16:15:05.177-0400 I NETWORK  [conn47] end connection 127.0.0.1:53897 (1 connection now open)
+2018-06-16T16:15:05.844-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53913 #49 (2 connections now open)
+2018-06-16T16:15:05.844-0400 I NETWORK  [conn49] received client metadata from 127.0.0.1:53913 conn49: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:15:05.844-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53914 #50 (3 connections now open)
+2018-06-16T16:15:05.845-0400 I NETWORK  [conn50] received client metadata from 127.0.0.1:53914 conn50: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:16:24.616-0400 I NETWORK  [conn50] end connection 127.0.0.1:53914 (2 connections now open)
+2018-06-16T16:16:24.623-0400 I NETWORK  [conn49] end connection 127.0.0.1:53913 (1 connection now open)
+2018-06-16T16:16:25.511-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53924 #51 (2 connections now open)
+2018-06-16T16:16:25.511-0400 I NETWORK  [conn51] received client metadata from 127.0.0.1:53924 conn51: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:16:25.511-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53925 #52 (3 connections now open)
+2018-06-16T16:16:25.513-0400 I NETWORK  [conn52] received client metadata from 127.0.0.1:53925 conn52: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:16:48.144-0400 I NETWORK  [conn52] end connection 127.0.0.1:53925 (2 connections now open)
+2018-06-16T16:16:48.150-0400 I NETWORK  [conn51] end connection 127.0.0.1:53924 (1 connection now open)
+2018-06-16T16:16:48.670-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53930 #53 (2 connections now open)
+2018-06-16T16:16:48.670-0400 I NETWORK  [conn53] received client metadata from 127.0.0.1:53930 conn53: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:16:48.670-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53931 #54 (3 connections now open)
+2018-06-16T16:16:48.670-0400 I NETWORK  [conn54] received client metadata from 127.0.0.1:53931 conn54: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:18:39.009-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53958 #55 (4 connections now open)
+2018-06-16T16:18:39.009-0400 I NETWORK  [conn55] received client metadata from 127.0.0.1:53958 conn55: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:19:04.869-0400 I NETWORK  [conn55] end connection 127.0.0.1:53958 (2 connections now open)
+2018-06-16T16:19:04.869-0400 I NETWORK  [conn54] end connection 127.0.0.1:53931 (3 connections now open)
+2018-06-16T16:19:04.875-0400 I NETWORK  [conn53] end connection 127.0.0.1:53930 (1 connection now open)
+2018-06-16T16:19:05.892-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53960 #56 (2 connections now open)
+2018-06-16T16:19:05.892-0400 I NETWORK  [conn56] received client metadata from 127.0.0.1:53960 conn56: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:19:05.895-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53961 #57 (3 connections now open)
+2018-06-16T16:19:05.895-0400 I NETWORK  [conn57] received client metadata from 127.0.0.1:53961 conn57: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-16T16:19:09.095-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:53967 #58 (4 connections now open)
+2018-06-16T16:19:09.095-0400 I NETWORK  [conn58] received client metadata from 127.0.0.1:53967 conn58: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:08:11.191-0400 I NETWORK  [conn58] end connection 127.0.0.1:53967 (3 connections now open)
+2018-06-17T13:08:11.191-0400 I NETWORK  [conn57] end connection 127.0.0.1:53961 (2 connections now open)
+2018-06-17T13:08:11.198-0400 I NETWORK  [conn56] end connection 127.0.0.1:53960 (1 connection now open)
+2018-06-17T13:11:38.104-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54341 #59 (2 connections now open)
+2018-06-17T13:11:38.105-0400 I NETWORK  [conn59] received client metadata from 127.0.0.1:54341 conn59: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:11:38.105-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54342 #60 (3 connections now open)
+2018-06-17T13:11:38.109-0400 I NETWORK  [conn60] received client metadata from 127.0.0.1:54342 conn60: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:11:46.752-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54347 #61 (4 connections now open)
+2018-06-17T13:11:46.752-0400 I NETWORK  [conn61] received client metadata from 127.0.0.1:54347 conn61: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:14:28.535-0400 I NETWORK  [conn60] end connection 127.0.0.1:54342 (2 connections now open)
+2018-06-17T13:14:28.535-0400 I NETWORK  [conn61] end connection 127.0.0.1:54347 (3 connections now open)
+2018-06-17T13:14:28.556-0400 I NETWORK  [conn59] end connection 127.0.0.1:54341 (1 connection now open)
+2018-06-17T13:14:29.910-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54371 #62 (2 connections now open)
+2018-06-17T13:14:29.910-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54372 #63 (3 connections now open)
+2018-06-17T13:14:29.910-0400 I NETWORK  [conn62] received client metadata from 127.0.0.1:54371 conn62: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:14:29.910-0400 I NETWORK  [conn63] received client metadata from 127.0.0.1:54372 conn63: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:14:56.081-0400 I NETWORK  [conn63] end connection 127.0.0.1:54372 (2 connections now open)
+2018-06-17T13:14:56.101-0400 I NETWORK  [conn62] end connection 127.0.0.1:54371 (1 connection now open)
+2018-06-17T13:14:57.513-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54377 #64 (2 connections now open)
+2018-06-17T13:14:57.513-0400 I NETWORK  [conn64] received client metadata from 127.0.0.1:54377 conn64: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:14:57.514-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54378 #65 (3 connections now open)
+2018-06-17T13:14:57.516-0400 I NETWORK  [conn65] received client metadata from 127.0.0.1:54378 conn65: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:15:09.470-0400 I NETWORK  [conn65] end connection 127.0.0.1:54378 (2 connections now open)
+2018-06-17T13:15:09.496-0400 I NETWORK  [conn64] end connection 127.0.0.1:54377 (1 connection now open)
+2018-06-17T13:15:30.549-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54385 #66 (2 connections now open)
+2018-06-17T13:15:30.549-0400 I NETWORK  [conn66] received client metadata from 127.0.0.1:54385 conn66: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:15:30.552-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54386 #67 (3 connections now open)
+2018-06-17T13:15:30.554-0400 I NETWORK  [conn67] received client metadata from 127.0.0.1:54386 conn67: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:21:40.841-0400 I NETWORK  [conn67] end connection 127.0.0.1:54386 (2 connections now open)
+2018-06-17T13:21:40.870-0400 I NETWORK  [conn66] end connection 127.0.0.1:54385 (1 connection now open)
+2018-06-17T13:21:42.533-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54429 #68 (2 connections now open)
+2018-06-17T13:21:42.534-0400 I NETWORK  [conn68] received client metadata from 127.0.0.1:54429 conn68: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:21:42.534-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54430 #69 (3 connections now open)
+2018-06-17T13:21:42.538-0400 I NETWORK  [conn69] received client metadata from 127.0.0.1:54430 conn69: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:23:00.495-0400 I NETWORK  [conn69] end connection 127.0.0.1:54430 (2 connections now open)
+2018-06-17T13:23:00.516-0400 I NETWORK  [conn68] end connection 127.0.0.1:54429 (1 connection now open)
+2018-06-17T13:23:02.067-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54440 #70 (2 connections now open)
+2018-06-17T13:23:02.068-0400 I NETWORK  [conn70] received client metadata from 127.0.0.1:54440 conn70: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:23:02.071-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54441 #71 (3 connections now open)
+2018-06-17T13:23:02.071-0400 I NETWORK  [conn71] received client metadata from 127.0.0.1:54441 conn71: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:31:00.524-0400 I NETWORK  [conn71] end connection 127.0.0.1:54441 (2 connections now open)
+2018-06-17T13:31:00.545-0400 I NETWORK  [conn70] end connection 127.0.0.1:54440 (1 connection now open)
+2018-06-17T13:31:02.721-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54473 #72 (2 connections now open)
+2018-06-17T13:31:02.722-0400 I NETWORK  [conn72] received client metadata from 127.0.0.1:54473 conn72: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:31:02.722-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54474 #73 (3 connections now open)
+2018-06-17T13:31:02.722-0400 I NETWORK  [conn73] received client metadata from 127.0.0.1:54474 conn73: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:32:51.325-0400 I NETWORK  [conn73] end connection 127.0.0.1:54474 (2 connections now open)
+2018-06-17T13:32:51.345-0400 I NETWORK  [conn72] end connection 127.0.0.1:54473 (1 connection now open)
+2018-06-17T13:32:52.567-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54540 #74 (2 connections now open)
+2018-06-17T13:32:52.568-0400 I NETWORK  [conn74] received client metadata from 127.0.0.1:54540 conn74: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:32:52.570-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54541 #75 (3 connections now open)
+2018-06-17T13:32:52.571-0400 I NETWORK  [conn75] received client metadata from 127.0.0.1:54541 conn75: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:33:52.401-0400 I NETWORK  [conn75] end connection 127.0.0.1:54541 (2 connections now open)
+2018-06-17T13:33:52.421-0400 I NETWORK  [conn74] end connection 127.0.0.1:54540 (1 connection now open)
+2018-06-17T13:33:53.659-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54546 #76 (2 connections now open)
+2018-06-17T13:33:53.659-0400 I NETWORK  [conn76] received client metadata from 127.0.0.1:54546 conn76: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:33:53.660-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54547 #77 (3 connections now open)
+2018-06-17T13:33:53.660-0400 I NETWORK  [conn77] received client metadata from 127.0.0.1:54547 conn77: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T13:42:19.940-0400 I NETWORK  [conn77] end connection 127.0.0.1:54547 (2 connections now open)
+2018-06-17T13:42:19.940-0400 I NETWORK  [conn76] end connection 127.0.0.1:54546 (1 connection now open)
+2018-06-17T16:58:17.819-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54747 #78 (2 connections now open)
+2018-06-17T16:58:17.820-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54748 #79 (3 connections now open)
+2018-06-17T16:58:17.824-0400 I NETWORK  [conn79] received client metadata from 127.0.0.1:54748 conn79: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T16:58:17.824-0400 I NETWORK  [conn78] received client metadata from 127.0.0.1:54747 conn78: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T16:59:18.173-0400 I NETWORK  [conn79] end connection 127.0.0.1:54748 (2 connections now open)
+2018-06-17T16:59:18.192-0400 I NETWORK  [conn78] end connection 127.0.0.1:54747 (1 connection now open)
+2018-06-17T16:59:19.271-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54753 #80 (2 connections now open)
+2018-06-17T16:59:19.273-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54754 #81 (3 connections now open)
+2018-06-17T16:59:19.274-0400 I NETWORK  [conn80] received client metadata from 127.0.0.1:54753 conn80: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T16:59:19.274-0400 I NETWORK  [conn81] received client metadata from 127.0.0.1:54754 conn81: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:00:01.047-0400 I NETWORK  [conn81] end connection 127.0.0.1:54754 (2 connections now open)
+2018-06-17T17:00:01.065-0400 I NETWORK  [conn80] end connection 127.0.0.1:54753 (1 connection now open)
+2018-06-17T17:00:02.276-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54759 #82 (2 connections now open)
+2018-06-17T17:00:02.277-0400 I NETWORK  [conn82] received client metadata from 127.0.0.1:54759 conn82: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:00:02.280-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54760 #83 (3 connections now open)
+2018-06-17T17:00:02.280-0400 I NETWORK  [conn83] received client metadata from 127.0.0.1:54760 conn83: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:24:01.405-0400 I NETWORK  [conn83] end connection 127.0.0.1:54760 (2 connections now open)
+2018-06-17T17:24:01.425-0400 I NETWORK  [conn82] end connection 127.0.0.1:54759 (1 connection now open)
+2018-06-17T17:24:02.906-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54864 #84 (2 connections now open)
+2018-06-17T17:24:02.908-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54865 #85 (3 connections now open)
+2018-06-17T17:24:02.908-0400 I NETWORK  [conn84] received client metadata from 127.0.0.1:54864 conn84: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:24:02.908-0400 I NETWORK  [conn85] received client metadata from 127.0.0.1:54865 conn85: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:24:20.950-0400 I NETWORK  [conn85] end connection 127.0.0.1:54865 (2 connections now open)
+2018-06-17T17:24:20.951-0400 I NETWORK  [conn84] end connection 127.0.0.1:54864 (1 connection now open)
+2018-06-17T17:25:31.788-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54870 #86 (2 connections now open)
+2018-06-17T17:25:31.788-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54871 #87 (3 connections now open)
+2018-06-17T17:25:31.789-0400 I NETWORK  [conn86] received client metadata from 127.0.0.1:54870 conn86: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:25:31.789-0400 I NETWORK  [conn87] received client metadata from 127.0.0.1:54871 conn87: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:26:10.514-0400 I NETWORK  [conn87] end connection 127.0.0.1:54871 (2 connections now open)
+2018-06-17T17:26:10.533-0400 I NETWORK  [conn86] end connection 127.0.0.1:54870 (1 connection now open)
+2018-06-17T17:26:11.787-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54876 #88 (2 connections now open)
+2018-06-17T17:26:11.787-0400 I NETWORK  [conn88] received client metadata from 127.0.0.1:54876 conn88: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:26:11.788-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54877 #89 (3 connections now open)
+2018-06-17T17:26:11.788-0400 I NETWORK  [conn89] received client metadata from 127.0.0.1:54877 conn89: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:26:33.610-0400 I NETWORK  [conn89] end connection 127.0.0.1:54877 (2 connections now open)
+2018-06-17T17:26:33.631-0400 I NETWORK  [conn88] end connection 127.0.0.1:54876 (1 connection now open)
+2018-06-17T17:26:34.667-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54880 #90 (2 connections now open)
+2018-06-17T17:26:34.668-0400 I NETWORK  [conn90] received client metadata from 127.0.0.1:54880 conn90: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:26:34.668-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54881 #91 (3 connections now open)
+2018-06-17T17:26:34.668-0400 I NETWORK  [conn91] received client metadata from 127.0.0.1:54881 conn91: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:28:02.909-0400 I NETWORK  [conn91] end connection 127.0.0.1:54881 (2 connections now open)
+2018-06-17T17:28:02.935-0400 I NETWORK  [conn90] end connection 127.0.0.1:54880 (1 connection now open)
+2018-06-17T17:28:04.157-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54913 #92 (2 connections now open)
+2018-06-17T17:28:04.157-0400 I NETWORK  [conn92] received client metadata from 127.0.0.1:54913 conn92: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:28:04.158-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54914 #93 (3 connections now open)
+2018-06-17T17:28:04.160-0400 I NETWORK  [conn93] received client metadata from 127.0.0.1:54914 conn93: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:33:59.920-0400 I NETWORK  [conn93] end connection 127.0.0.1:54914 (2 connections now open)
+2018-06-17T17:33:59.938-0400 I NETWORK  [conn92] end connection 127.0.0.1:54913 (1 connection now open)
+2018-06-17T17:34:01.450-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54957 #94 (2 connections now open)
+2018-06-17T17:34:01.451-0400 I NETWORK  [conn94] received client metadata from 127.0.0.1:54957 conn94: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:34:01.453-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54958 #95 (3 connections now open)
+2018-06-17T17:34:01.453-0400 I NETWORK  [conn95] received client metadata from 127.0.0.1:54958 conn95: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:34:33.000-0400 I NETWORK  [conn95] end connection 127.0.0.1:54958 (2 connections now open)
+2018-06-17T17:34:33.027-0400 I NETWORK  [conn94] end connection 127.0.0.1:54957 (1 connection now open)
+2018-06-17T17:34:34.443-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54961 #96 (2 connections now open)
+2018-06-17T17:34:34.443-0400 I NETWORK  [conn96] received client metadata from 127.0.0.1:54961 conn96: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:34:34.444-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54962 #97 (3 connections now open)
+2018-06-17T17:34:34.444-0400 I NETWORK  [conn97] received client metadata from 127.0.0.1:54962 conn97: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:36:11.998-0400 I NETWORK  [conn97] end connection 127.0.0.1:54962 (2 connections now open)
+2018-06-17T17:36:12.017-0400 I NETWORK  [conn96] end connection 127.0.0.1:54961 (1 connection now open)
+2018-06-17T17:36:13.424-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54974 #98 (2 connections now open)
+2018-06-17T17:36:13.425-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:54975 #99 (3 connections now open)
+2018-06-17T17:36:13.425-0400 I NETWORK  [conn99] received client metadata from 127.0.0.1:54975 conn99: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:36:13.427-0400 I NETWORK  [conn98] received client metadata from 127.0.0.1:54974 conn98: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:37:19.339-0400 I NETWORK  [conn98] end connection 127.0.0.1:54974 (2 connections now open)
+2018-06-17T17:37:19.358-0400 I NETWORK  [conn99] end connection 127.0.0.1:54975 (1 connection now open)
+2018-06-17T17:37:20.852-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55069 #100 (2 connections now open)
+2018-06-17T17:37:20.853-0400 I NETWORK  [conn100] received client metadata from 127.0.0.1:55069 conn100: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:37:20.853-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55070 #101 (3 connections now open)
+2018-06-17T17:37:20.855-0400 I NETWORK  [conn101] received client metadata from 127.0.0.1:55070 conn101: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:37:59.569-0400 I NETWORK  [conn101] end connection 127.0.0.1:55070 (2 connections now open)
+2018-06-17T17:37:59.589-0400 I NETWORK  [conn100] end connection 127.0.0.1:55069 (1 connection now open)
+2018-06-17T17:38:00.711-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55212 #102 (2 connections now open)
+2018-06-17T17:38:00.711-0400 I NETWORK  [conn102] received client metadata from 127.0.0.1:55212 conn102: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:38:00.714-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55213 #103 (3 connections now open)
+2018-06-17T17:38:00.714-0400 I NETWORK  [conn103] received client metadata from 127.0.0.1:55213 conn103: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:48:59.599-0400 I NETWORK  [conn103] end connection 127.0.0.1:55213 (2 connections now open)
+2018-06-17T17:48:59.619-0400 I NETWORK  [conn102] end connection 127.0.0.1:55212 (1 connection now open)
+2018-06-17T17:49:01.655-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55353 #104 (2 connections now open)
+2018-06-17T17:49:01.655-0400 I NETWORK  [conn104] received client metadata from 127.0.0.1:55353 conn104: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:49:01.655-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55354 #105 (3 connections now open)
+2018-06-17T17:49:01.656-0400 I NETWORK  [conn105] received client metadata from 127.0.0.1:55354 conn105: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:50:34.391-0400 I NETWORK  [conn105] end connection 127.0.0.1:55354 (2 connections now open)
+2018-06-17T17:50:34.426-0400 I NETWORK  [conn104] end connection 127.0.0.1:55353 (1 connection now open)
+2018-06-17T17:50:40.884-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55370 #106 (2 connections now open)
+2018-06-17T17:50:40.884-0400 I NETWORK  [conn106] received client metadata from 127.0.0.1:55370 conn106: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T17:50:40.887-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55371 #107 (3 connections now open)
+2018-06-17T17:50:40.887-0400 I NETWORK  [conn107] received client metadata from 127.0.0.1:55371 conn107: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:04:35.553-0400 I NETWORK  [conn107] end connection 127.0.0.1:55371 (2 connections now open)
+2018-06-17T18:04:35.585-0400 I NETWORK  [conn106] end connection 127.0.0.1:55370 (1 connection now open)
+2018-06-17T18:04:36.918-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55447 #108 (2 connections now open)
+2018-06-17T18:04:36.920-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55448 #109 (3 connections now open)
+2018-06-17T18:04:36.922-0400 I NETWORK  [conn108] received client metadata from 127.0.0.1:55447 conn108: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:04:36.922-0400 I NETWORK  [conn109] received client metadata from 127.0.0.1:55448 conn109: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:06:59.640-0400 I NETWORK  [conn109] end connection 127.0.0.1:55448 (2 connections now open)
+2018-06-17T18:06:59.664-0400 I NETWORK  [conn108] end connection 127.0.0.1:55447 (1 connection now open)
+2018-06-17T18:07:01.147-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55471 #110 (2 connections now open)
+2018-06-17T18:07:01.147-0400 I NETWORK  [conn110] received client metadata from 127.0.0.1:55471 conn110: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:07:01.150-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55472 #111 (3 connections now open)
+2018-06-17T18:07:01.151-0400 I NETWORK  [conn111] received client metadata from 127.0.0.1:55472 conn111: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:10:09.561-0400 I NETWORK  [conn111] end connection 127.0.0.1:55472 (2 connections now open)
+2018-06-17T18:10:09.584-0400 I NETWORK  [conn110] end connection 127.0.0.1:55471 (1 connection now open)
+2018-06-17T18:10:10.738-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55491 #112 (2 connections now open)
+2018-06-17T18:10:10.740-0400 I NETWORK  [conn112] received client metadata from 127.0.0.1:55491 conn112: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:10:10.741-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55492 #113 (3 connections now open)
+2018-06-17T18:10:10.741-0400 I NETWORK  [conn113] received client metadata from 127.0.0.1:55492 conn113: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:14:20.439-0400 I NETWORK  [conn113] end connection 127.0.0.1:55492 (2 connections now open)
+2018-06-17T18:14:20.468-0400 I NETWORK  [conn112] end connection 127.0.0.1:55491 (1 connection now open)
+2018-06-17T18:14:21.558-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55518 #114 (2 connections now open)
+2018-06-17T18:14:21.558-0400 I NETWORK  [conn114] received client metadata from 127.0.0.1:55518 conn114: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:14:21.559-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55519 #115 (3 connections now open)
+2018-06-17T18:14:21.562-0400 I NETWORK  [conn115] received client metadata from 127.0.0.1:55519 conn115: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:31:00.508-0400 I NETWORK  [conn115] end connection 127.0.0.1:55519 (2 connections now open)
+2018-06-17T18:31:00.531-0400 I NETWORK  [conn114] end connection 127.0.0.1:55518 (1 connection now open)
+2018-06-17T18:31:19.467-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55772 #116 (2 connections now open)
+2018-06-17T18:31:19.467-0400 I NETWORK  [conn116] received client metadata from 127.0.0.1:55772 conn116: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:31:19.467-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55773 #117 (3 connections now open)
+2018-06-17T18:31:19.468-0400 I NETWORK  [conn117] received client metadata from 127.0.0.1:55773 conn117: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:32:39.417-0400 I NETWORK  [conn116] end connection 127.0.0.1:55772 (2 connections now open)
+2018-06-17T18:32:39.431-0400 I NETWORK  [conn117] end connection 127.0.0.1:55773 (1 connection now open)
+2018-06-17T18:32:40.879-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55780 #118 (2 connections now open)
+2018-06-17T18:32:40.879-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55781 #119 (3 connections now open)
+2018-06-17T18:32:40.879-0400 I NETWORK  [conn118] received client metadata from 127.0.0.1:55780 conn118: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:32:40.879-0400 I NETWORK  [conn119] received client metadata from 127.0.0.1:55781 conn119: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:37:59.480-0400 I NETWORK  [conn119] end connection 127.0.0.1:55781 (2 connections now open)
+2018-06-17T18:37:59.494-0400 I NETWORK  [conn118] end connection 127.0.0.1:55780 (1 connection now open)
+2018-06-17T18:38:00.492-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55874 #120 (2 connections now open)
+2018-06-17T18:38:00.492-0400 I NETWORK  [conn120] received client metadata from 127.0.0.1:55874 conn120: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:38:00.493-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55875 #121 (3 connections now open)
+2018-06-17T18:38:00.495-0400 I NETWORK  [conn121] received client metadata from 127.0.0.1:55875 conn121: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:38:31.675-0400 I NETWORK  [conn120] end connection 127.0.0.1:55874 (2 connections now open)
+2018-06-17T18:38:31.689-0400 I NETWORK  [conn121] end connection 127.0.0.1:55875 (1 connection now open)
+2018-06-17T18:38:32.795-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55880 #122 (2 connections now open)
+2018-06-17T18:38:32.796-0400 I NETWORK  [conn122] received client metadata from 127.0.0.1:55880 conn122: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:38:32.796-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:55881 #123 (3 connections now open)
+2018-06-17T18:38:32.799-0400 I NETWORK  [conn123] received client metadata from 127.0.0.1:55881 conn123: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:50:45.146-0400 I NETWORK  [conn123] end connection 127.0.0.1:55881 (2 connections now open)
+2018-06-17T18:50:45.159-0400 I NETWORK  [conn122] end connection 127.0.0.1:55880 (1 connection now open)
+2018-06-17T18:50:46.322-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56051 #124 (2 connections now open)
+2018-06-17T18:50:46.322-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56052 #125 (3 connections now open)
+2018-06-17T18:50:46.323-0400 I NETWORK  [conn124] received client metadata from 127.0.0.1:56051 conn124: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:50:46.323-0400 I NETWORK  [conn125] received client metadata from 127.0.0.1:56052 conn125: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:51:45.696-0400 I NETWORK  [conn124] end connection 127.0.0.1:56051 (2 connections now open)
+2018-06-17T18:51:45.711-0400 I NETWORK  [conn125] end connection 127.0.0.1:56052 (1 connection now open)
+2018-06-17T18:51:46.922-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56082 #126 (2 connections now open)
+2018-06-17T18:51:46.924-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56083 #127 (3 connections now open)
+2018-06-17T18:51:46.924-0400 I NETWORK  [conn127] received client metadata from 127.0.0.1:56083 conn127: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T18:51:46.925-0400 I NETWORK  [conn126] received client metadata from 127.0.0.1:56082 conn126: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:02:06.630-0400 I NETWORK  [conn126] end connection 127.0.0.1:56082 (2 connections now open)
+2018-06-17T19:02:06.643-0400 I NETWORK  [conn127] end connection 127.0.0.1:56083 (1 connection now open)
+2018-06-17T19:02:09.646-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56151 #128 (2 connections now open)
+2018-06-17T19:02:09.646-0400 I NETWORK  [conn128] received client metadata from 127.0.0.1:56151 conn128: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:02:09.647-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56152 #129 (3 connections now open)
+2018-06-17T19:02:09.647-0400 I NETWORK  [conn129] received client metadata from 127.0.0.1:56152 conn129: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:02:55.976-0400 I NETWORK  [conn129] end connection 127.0.0.1:56152 (2 connections now open)
+2018-06-17T19:02:55.990-0400 I NETWORK  [conn128] end connection 127.0.0.1:56151 (1 connection now open)
+2018-06-17T19:02:57.097-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56157 #130 (2 connections now open)
+2018-06-17T19:02:57.097-0400 I NETWORK  [conn130] received client metadata from 127.0.0.1:56157 conn130: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:02:57.099-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56158 #131 (3 connections now open)
+2018-06-17T19:02:57.100-0400 I NETWORK  [conn131] received client metadata from 127.0.0.1:56158 conn131: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:09:22.682-0400 I NETWORK  [conn131] end connection 127.0.0.1:56158 (2 connections now open)
+2018-06-17T19:09:22.696-0400 I NETWORK  [conn130] end connection 127.0.0.1:56157 (1 connection now open)
+2018-06-17T19:09:23.845-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56175 #132 (2 connections now open)
+2018-06-17T19:09:23.845-0400 I NETWORK  [conn132] received client metadata from 127.0.0.1:56175 conn132: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:09:23.848-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56176 #133 (3 connections now open)
+2018-06-17T19:09:23.848-0400 I NETWORK  [conn133] received client metadata from 127.0.0.1:56176 conn133: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:09:59.066-0400 I NETWORK  [conn133] end connection 127.0.0.1:56176 (2 connections now open)
+2018-06-17T19:09:59.080-0400 I NETWORK  [conn132] end connection 127.0.0.1:56175 (1 connection now open)
+2018-06-17T19:10:00.381-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56185 #134 (2 connections now open)
+2018-06-17T19:10:00.381-0400 I NETWORK  [conn134] received client metadata from 127.0.0.1:56185 conn134: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:10:00.383-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56186 #135 (3 connections now open)
+2018-06-17T19:10:00.384-0400 I NETWORK  [conn135] received client metadata from 127.0.0.1:56186 conn135: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:36:28.195-0400 I NETWORK  [conn135] end connection 127.0.0.1:56186 (2 connections now open)
+2018-06-17T19:36:28.210-0400 I NETWORK  [conn134] end connection 127.0.0.1:56185 (1 connection now open)
+2018-06-17T19:36:29.233-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56365 #136 (2 connections now open)
+2018-06-17T19:36:29.233-0400 I NETWORK  [conn136] received client metadata from 127.0.0.1:56365 conn136: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:36:29.234-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56366 #137 (3 connections now open)
+2018-06-17T19:36:29.235-0400 I NETWORK  [conn137] received client metadata from 127.0.0.1:56366 conn137: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:38:38.426-0400 I NETWORK  [conn137] end connection 127.0.0.1:56366 (2 connections now open)
+2018-06-17T19:38:38.439-0400 I NETWORK  [conn136] end connection 127.0.0.1:56365 (1 connection now open)
+2018-06-17T19:38:39.509-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56420 #138 (2 connections now open)
+2018-06-17T19:38:39.509-0400 I NETWORK  [conn138] received client metadata from 127.0.0.1:56420 conn138: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:38:39.509-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56421 #139 (3 connections now open)
+2018-06-17T19:38:39.510-0400 I NETWORK  [conn139] received client metadata from 127.0.0.1:56421 conn139: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:42:38.256-0400 I NETWORK  [conn139] end connection 127.0.0.1:56421 (2 connections now open)
+2018-06-17T19:42:38.269-0400 I NETWORK  [conn138] end connection 127.0.0.1:56420 (1 connection now open)
+2018-06-17T19:42:39.721-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56499 #140 (2 connections now open)
+2018-06-17T19:42:39.722-0400 I NETWORK  [conn140] received client metadata from 127.0.0.1:56499 conn140: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:42:39.722-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56500 #141 (3 connections now open)
+2018-06-17T19:42:39.723-0400 I NETWORK  [conn141] received client metadata from 127.0.0.1:56500 conn141: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:42:43.504-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56505 #142 (4 connections now open)
+2018-06-17T19:42:43.504-0400 I NETWORK  [conn142] received client metadata from 127.0.0.1:56505 conn142: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:42:43.514-0400 I STORAGE  [conn142] createCollection: log.logs with generated UUID: fc858550-b44c-4cf3-b198-fcd10254477e
+2018-06-17T19:44:36.343-0400 I NETWORK  [conn141] end connection 127.0.0.1:56500 (2 connections now open)
+2018-06-17T19:44:36.343-0400 I NETWORK  [conn142] end connection 127.0.0.1:56505 (3 connections now open)
+2018-06-17T19:44:36.358-0400 I NETWORK  [conn140] end connection 127.0.0.1:56499 (1 connection now open)
+2018-06-17T19:44:37.609-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56516 #143 (2 connections now open)
+2018-06-17T19:44:37.610-0400 I NETWORK  [conn143] received client metadata from 127.0.0.1:56516 conn143: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:44:37.610-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56517 #144 (3 connections now open)
+2018-06-17T19:44:37.613-0400 I NETWORK  [conn144] received client metadata from 127.0.0.1:56517 conn144: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:47:51.132-0400 I NETWORK  [conn144] end connection 127.0.0.1:56517 (2 connections now open)
+2018-06-17T19:47:51.144-0400 I NETWORK  [conn143] end connection 127.0.0.1:56516 (1 connection now open)
+2018-06-17T19:47:52.591-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56549 #145 (2 connections now open)
+2018-06-17T19:47:52.592-0400 I NETWORK  [conn145] received client metadata from 127.0.0.1:56549 conn145: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:47:52.592-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56550 #146 (3 connections now open)
+2018-06-17T19:47:52.592-0400 I NETWORK  [conn146] received client metadata from 127.0.0.1:56550 conn146: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:48:02.300-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56555 #147 (4 connections now open)
+2018-06-17T19:48:02.300-0400 I NETWORK  [conn147] received client metadata from 127.0.0.1:56555 conn147: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:49:26.600-0400 I NETWORK  [conn147] end connection 127.0.0.1:56555 (3 connections now open)
+2018-06-17T19:49:26.600-0400 I NETWORK  [conn146] end connection 127.0.0.1:56550 (2 connections now open)
+2018-06-17T19:49:26.614-0400 I NETWORK  [conn145] end connection 127.0.0.1:56549 (1 connection now open)
+2018-06-17T19:49:27.655-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56589 #148 (2 connections now open)
+2018-06-17T19:49:27.655-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56590 #149 (3 connections now open)
+2018-06-17T19:49:27.656-0400 I NETWORK  [conn148] received client metadata from 127.0.0.1:56589 conn148: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:49:27.656-0400 I NETWORK  [conn149] received client metadata from 127.0.0.1:56590 conn149: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T19:49:31.628-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:56595 #150 (4 connections now open)
+2018-06-17T19:49:31.628-0400 I NETWORK  [conn150] received client metadata from 127.0.0.1:56595 conn150: { driver: { name: "PyMongo", version: "3.6.1" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.10.5" }, platform: "CPython 2.7.9.final.0" }
+2018-06-17T20:33:56.007-0400 I NETWORK  [conn149] end connection 127.0.0.1:56590 (2 connections now open)
+2018-06-17T20:33:56.007-0400 I NETWORK  [conn150] end connection 127.0.0.1:56595 (3 connections now open)
+2018-06-17T20:33:56.020-0400 I NETWORK  [conn148] end connection 127.0.0.1:56589 (1 connection now open)
