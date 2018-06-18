@@ -18,6 +18,9 @@ db_log = client['log']
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+'''
+This function gets called before each request and creates request_time()
+'''
 @app.before_request
 def before_request():
     g.request_start_time = time.time()
@@ -27,6 +30,7 @@ def before_request():
 def home_page():
 	images = db.images.find()
 	image_names = []
+	#We only want the names to display
 	for image in images:
 		print image
 		image_names.append(image['imagename'])
@@ -39,7 +43,7 @@ def search():
 	min_bits_per_pix = int(request.args.get('min_bits_per_pix'))
 
 	height = min_area/max_width
-	size = min_bits_per_pix/8
+	size = min_bits_per_pix/8 # conversion
 
 	images = db.images.find({'width':{'$lte': max_width}, 'height':{'$gte': height}, 'size':{'$gte': size}})
 	image_names = []
@@ -50,10 +54,14 @@ def search():
 
 @app.route('/image/<imagename>/<filtertype>')
 def imageFilter(imagename, filtertype):
+
+	#value is only used for certain filters
 	value = int(request.args.get('value'))
 
+	#Used LA instead of L to get rid of black background
 	greyscale_image = Image.open(APP_ROOT+'/structura-techchallenge-assets/'+imagename+'.jpg').convert('LA')
 
+	#Need this to format image to display
 	output = StringIO.StringIO()
 
 	if filtertype == "grayscale":
@@ -61,10 +69,10 @@ def imageFilter(imagename, filtertype):
 
 	elif filtertype == "lowpass":
 		lowpass_image = greyscale_image.filter(ImageFilter.GaussianBlur(radius=value))
-		output = StringIO.StringIO()
 		lowpass_image.save(output, "PNG")
 
 	elif filtertype == "crop":
+		#cropping needs to be done from the center
 		width, height = greyscale_image.size
 		left = (width - value) / 2
 		top = (height - value) / 2
@@ -75,8 +83,11 @@ def imageFilter(imagename, filtertype):
 		cropped_image.save(output, "PNG")
 
 	elif filtertype == "dx":
+		#convert to numpy array first
 		greyscale_image_x_array = zeros(array(greyscale_image).shape)
+		#apply derivative filter
 		filters.sobel(greyscale_image, 1, greyscale_image_x_array)
+		#convert back to image
 		greyscale_image_x = Image.fromarray(np.uint8(greyscale_image_x_array * 255), 'LA')
 		greyscale_image_x.save(output, "PNG")
 
@@ -92,6 +103,7 @@ def imageFilter(imagename, filtertype):
 		downsampled_image.save(output, "PNG")
 
 	elif filtertype == "rotate":
+		#rotate() uses coutner clockwise by default, 360-value for clockwise
 		rotated_image = greyscale_image.rotate(360-value)
 		rotated_image.save(output, "PNG")
 
@@ -101,6 +113,7 @@ def imageFilter(imagename, filtertype):
 	contents = output.getvalue().encode("base64")
 	output.close()
 	print request
+	#create log collection and save document
 	logs = db_log.logs
 	log_data = {
 		'imagename': imagename,
@@ -115,6 +128,7 @@ def imageFilter(imagename, filtertype):
 
 @app.route('/log')
 def show_log():
+	#sorts logs in desc and shows only 100 max
 	entries = db_log.logs.find().sort('id', -1).limit(100)
 	return render_template('log_page.html', entries=entries)
 
